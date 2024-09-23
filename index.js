@@ -17,7 +17,7 @@ function cardClicker(id) {
 		card.innerHTML = `
       <div class="card-body text-center">
         <h2 class="text-2xl font-bold">Congrats!</h2>
-        <img src="./assets/coin.png" alt="coin" class="w-10  ml-36"/>
+        <img src="./assets/coin.png" alt="coin" class="w-10 ml-36"/>
         <p>You Have Donated For Humankind</p>
         <p class="font-semibold ">Successfully</p>
         <div class="card-actions justify-center">
