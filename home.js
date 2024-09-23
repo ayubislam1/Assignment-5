@@ -8,7 +8,7 @@ document.getElementById("btn-one").addEventListener("click", function () {
 	const balance = parseFloat(textValue("main-balance"));
 	const title = textValue("title-one");
 	if (input <= 0 || isNaN(input)) {
-		alert("Not a number,try to number input");
+		alert("Invalid Donation amount");
 		return;
 	}
 
@@ -37,7 +37,7 @@ document.getElementById("btn-two").addEventListener("click", function () {
 	const balance = parseFloat(textValue("main-balance"));
 	const title = textValue("title-two");
 	if (input <= 0 || isNaN(input)) {
-		alert("Not a number,try to number input");
+		alert("Invalid Donation amount");
 		return;
 	}
 
@@ -66,7 +66,7 @@ document.getElementById("btn-three").addEventListener("click", function () {
 	const balance = parseFloat(textValue("main-balance"));
 	const title = textValue("title-three");
 	if (input <= 0 || isNaN(input)) {
-		alert("Not a number,try to number input");
+		alert("Invalid Donation amount");
 		return;
 	}
 
