@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate Bangladesh</title>
+    <!-- DaisyUI CDN -->
+
+		<link
+        href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+        rel="stylesheet"
+        type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap"
+        rel="stylesheet"
+    />
+    <!-- Font awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#B4F461",
+                    },
+                    fontFamily: {
+                        lex: "Lexend",
+                    },
+                },
+            },
+        };
+    </script>
+</head>
+<body>
+    <header class="relative mb-56 ">
+        <nav class="fixed top-0 left-0 right-0  z-10 backdrop-blur-sm ">
+            <div class="navbar bg-orange-50 px-10 ">
+                <div class="navbar-start">
+                    <button id="home-btn" class="btn bg-primary text-xl font-semibold px-5">
+                        Home
+                    </button>
+                </div>
+                <div class="navbar-center space-x-2">
+                    <img src="./assets/logo.png" alt="Coin" />
+
+                    <a class="text-xl font-semibold">Donate Bangladesh</a>
+                </div>
+                <div class="navbar-end space-x-2 font-medium text-xl">
+                    <img src="./assets/coin.png" alt="coin" />
+                    <p>5000</p>
+                    <p>BDT</p>
+                </div>
+            </div>
+            <div class="mt-16 text-center space-x-3">
+                <button class="btn px-5 text-xl font-semibold bg-primary">
+                    Donation
+                </button>
+                <button class="btn px-5 text-xl font-semibold">History</button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mx-auto">
+        <div class="">
+            <div class="mb-5">
+               
+               <h1 class="text-4xl font-bold"> Important FAQ <i class="fa-regular fa-circle-question"></i></h1>
+            </div>
+            <div tabindex="0" class="collapse collapse-arrow border-base-300 bg-base-100 border p-5">
+                <div class="collapse-title text-xl font-medium">What is the Document Object Model (DOM)?</div>
+                <div class="collapse-content">
+                  <p>The Document Object Model (DOM) is a way for my browser to organize a webpage's content so that JavaScript can easily change or interact with it.</p>
+                </div>
+              </div>
+              <div tabindex="0" class="collapse collapse-arrow border-base-300 bg-base-100 border p-5">
+                <div class="collapse-title text-xl font-medium">How do you select an element from the DOM?</div>
+                <div class="collapse-content">
+                  <p>We can select a DOM element using methods like getElementById('id') or querySelector('cssSelector').</p>
+                </div>
+              </div>
+            <div tabindex="0" class="collapse collapse-arrow border-base-300 bg-base-100 border p-5">
+                <div class="collapse-title text-xl font-medium">What is event delegation in the context of the DOM,and what is it useful?</div>
+                <div class="collapse-content">
+                  <p>Event delegation lets a parent handle events for its child elements, making event management simpler and more efficient.</p>
+                </div>
+              </div>
+              <div tabindex="0" class="collapse collapse-arrow border-base-300 bg-base-100 border p-5">
+             
+                <div class="collapse-title text-xl font-medium">How do you manipulate and element's attribute and style using the DOM?</div>
+                <div class="collapse-content">
+                  <p>Use setAttribute() to change an attribute and element.style.property to change a style in the DOM.</p>
+                </div>
+            </div>
+              </div>
+        </div>
+    </main>
+   
+    <script src="index.js"></script>
+    <script src="home.js"></script>
+</body>
+</html>
