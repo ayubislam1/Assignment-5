@@ -38,7 +38,7 @@
 	<body class="font-lex">
 		<header class="relative mb-56 ">
 			<nav class="fixed top-0 left-0 right-0  z-10 backdrop-blur-sm ">
-				<div class="navbar bg-orange-50 px-10 ">
+				<div class="navbar bg-orange-50/70 px-10 backdrop-blur-sm">
 					<div class="navbar-start">
 						<button id="blog-btn"  class="btn bg-primary text-xl font-semibold px-5 ">
 							Blog
@@ -66,7 +66,7 @@
 
 		<main id="main-container" class="container mx-auto my-10 ">
 			<div class="mx-20 space-y-10 relative">
-                <section id="card-container" class="fixed z-30 left-10 md:left-1/3 hidden"></section>
+                <section id="card-container" class="fixed z-30 left-10 md:left-1/3 hidden "></section>
 				<div class="card card-side bg-base-100 shadow-xl border lg:px-5  grid grid-cols-1 lg:grid-cols-2 ">
 					<figure>
 						<img src="./assets/noakhali.png" alt="" class="w-full " />
@@ -88,8 +88,9 @@
 							supporting the relief efforts and making a positive impact on the
 							lives of those in need.
 						</p>
+                        
                         <input id="input-one" type="number" placeholder="Write Donation Amount" class="input  input-bordered w-full [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none" />
-                    
+                        <p id="invalid-text" class="text-red-600 hidden">Invalid amount</p>
                         <button id="btn-one" class="btn bg-primary ">Donate Now</button>
 					</div>
 				</div>

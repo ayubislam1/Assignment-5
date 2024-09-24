@@ -23,7 +23,7 @@ document.getElementById("btn-one").addEventListener("click", function () {
 	document.getElementById("main-balance").innerText = currentBalance;
 
 	const div = document.createElement("div");
-	div.className = "p-5 bg-white collapse space-y-2  mb-5 border ";
+	div.className = "p-5  collapse space-y-2  mb-5 border ";
 	div.innerHTML = `<h1 class="font-bold text-xl">${input} Taka is ${title}</h1>
    <p>${new Date().toString()}</p>`;
 	const history = document.getElementById("contain");
